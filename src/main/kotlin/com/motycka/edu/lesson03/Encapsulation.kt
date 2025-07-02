@@ -2,6 +2,7 @@ package com.motycka.edu.lesson03
 
 import java.time.LocalDate
 
+<<<<<<< HEAD
 class Assignment(val dueDate: LocalDate, val assignee: String){
 
     private var finalGrade: Int? = null
@@ -18,6 +19,8 @@ class Assignment(val dueDate: LocalDate, val assignee: String){
 }
 
 
+=======
+>>>>>>> 49f228850e191f7fda9ad040e26fb9deeff8b9cb
 /*
   TODO implement the Assignment class.
 
@@ -38,8 +41,16 @@ class Assignment(val dueDate: LocalDate, val assignee: String){
  Uncomment the main function to try the solution.
  */
 
+<<<<<<< HEAD
 fun main() {
     val assignment = Assignment(LocalDate.now(), "John Doe")
     assignment.setFinalGrade(90)
     println(assignment.getFinalGrade())
 }
+=======
+//fun main() {
+//    val assignment = Assignment(LocalDate.now(), "John Doe")
+//    assignment.setFinalGrade(90)
+//    println(assignment.getFinalGrade())
+//}
+>>>>>>> 49f228850e191f7fda9ad040e26fb9deeff8b9cb

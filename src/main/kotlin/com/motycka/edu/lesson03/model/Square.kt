@@ -7,6 +7,7 @@ package com.motycka.edu.lesson03.model
     - It should override all methods from Rectangle class.
     - It should have a method to convert it to a 3D Cuboid with the same side length for width, height, and depth.-
  */
+<<<<<<< HEAD
 
 
 class Square(private val side: Double): Rectangle(side, side) {
@@ -35,3 +36,5 @@ class Square(private val side: Double): Rectangle(side, side) {
         Cuboid(side, side, side)
 
 }
+=======
+>>>>>>> 49f228850e191f7fda9ad040e26fb9deeff8b9cb

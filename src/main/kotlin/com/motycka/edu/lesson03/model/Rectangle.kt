@@ -5,6 +5,7 @@ package com.motycka.edu.lesson03.model
     - It should have a constructor that takes two parameters for width and length.
     - It should override all methods from Shape2D and Quadrilateral interfaces
  */
+<<<<<<< HEAD
 
 open class Rectangle(
     override val width: Double,
@@ -22,3 +23,5 @@ open class Rectangle(
         Cuboid(width, length, depth)
 
 }
+=======
+>>>>>>> 49f228850e191f7fda9ad040e26fb9deeff8b9cb

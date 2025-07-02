@@ -9,6 +9,7 @@ const val cappuccino = "Cappuccino"
 /*
 Define Double variables for the prices of espresso and cappuccino.
  */
+<<<<<<< HEAD
 val espressoPrice = 2.5
 val cappuccinoPrice = 3.0
 
@@ -18,6 +19,14 @@ fun variables(espressoQuantity: Int, cappuccinoQuantity: Int) {
 //    val cappuccinoPrice   = getPrice(cappuccino)   ?: 0.0
 
     val totalPrice: Double = (espressoPrice * espressoQuantity)  +  (cappuccinoPrice * cappuccinoQuantity)
+=======
+val espressoPrice = null
+val cappuccinoPrice = null
+
+fun variables(espressoQuantity: Int, cappuccinoQuantity: Int) {
+
+    val totalPrice: Double = TODO()
+>>>>>>> 49f228850e191f7fda9ad040e26fb9deeff8b9cb
 
     println(totalPrice)
 }

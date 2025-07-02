@@ -22,6 +22,7 @@ class CollectionsTest : StringSpec({
         )
     }
 
+<<<<<<< HEAD
         "should print menu items" {
             captureStdout {
                 collections()
@@ -37,6 +38,23 @@ class CollectionsTest : StringSpec({
                 Americano
             """.trimIndent()
         }
+=======
+    "should print menu items" {
+        captureStdout {
+            collections()
+        } shouldContain  """
+            Welcome to the Coffee Shop! Here is our menu:
+            Espresso
+            Double Espresso
+            Cappuccino
+            Latte
+            Macchiato
+            Mocha
+            Flat White
+            Americano
+        """.trimIndent()
+    }
+>>>>>>> 49f228850e191f7fda9ad040e26fb9deeff8b9cb
 
     "should print placed orders" {
         captureStdout {
