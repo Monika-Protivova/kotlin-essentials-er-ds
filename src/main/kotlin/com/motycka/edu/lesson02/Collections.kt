@@ -4,6 +4,10 @@ package com.motycka.edu.lesson02
  Coffee Shop Menu
  */
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 49f228850e191f7fda9ad040e26fb9deeff8b9cb
 const val ESPRESSO = "Espresso"
 const val DOUBLE_ESPRESSO = "Double Espresso"
 const val CAPPUCCINO = "Cappuccino"
@@ -13,6 +17,10 @@ const val MOCHA = "Mocha"
 const val FLAT_WHITE = "Flat White"
 const val AMERICANO = "Americano"
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 49f228850e191f7fda9ad040e26fb9deeff8b9cb
 /*
     1. Create a list to store coffee menu items
     2. Initialize the list with constants defined above
@@ -24,16 +32,53 @@ const val AMERICANO = "Americano"
     8. Add order 2 to orders map
     9. Print the orders placed, uncomment the println statement at the end
  */
+<<<<<<< HEAD
+
+
+val coffeeMenu: List<String> = listOf<String>(
+    ESPRESSO,
+    DOUBLE_ESPRESSO,
+    CAPPUCCINO,
+    LATTE,
+    MACCHIATO,
+    MOCHA,
+    FLAT_WHITE,
+    AMERICANO,
+)
+
+
+fun collections(coffeeMenu: List<String> = com.motycka.edu.lesson02.coffeeMenu) {
+    val orders: MutableMap<Int, List<String>> = mutableMapOf()
+=======
 val coffeeMenu: List<String> = TODO("Initialize the list")
 
 fun collections() {
     val orders: Map<Int, List<String>> = TODO("Define a mutable map to store orders")
+>>>>>>> 49f228850e191f7fda9ad040e26fb9deeff8b9cb
 
     println("\nWelcome to the Coffee Shop! Here is our menu:")
 
     // TODO print the coffee menu items
 
+<<<<<<< HEAD
+//    println(coffeeMenu.joinToString(", "))
+    coffeeMenu.forEach { item -> println(item) }
+//    coffeeMenu.forEach(::println)
+
     // TODO create orders
+    val order1 = listOf(ESPRESSO, CAPPUCCINO, CAPPUCCINO, AMERICANO)
+    orders[1] = order1
+
+    val order2 = listOf(
+        ESPRESSO,
+        DOUBLE_ESPRESSO,
+        FLAT_WHITE
+    )
+    orders[2] = order2
+
+=======
+    // TODO create orders
+>>>>>>> 49f228850e191f7fda9ad040e26fb9deeff8b9cb
 
     println("\nOrders placed:")
     orders.forEach {
@@ -42,5 +87,10 @@ fun collections() {
 }
 
 fun main() {
+<<<<<<< HEAD
+
+    collections(coffeeMenu)
+=======
     collections()
+>>>>>>> 49f228850e191f7fda9ad040e26fb9deeff8b9cb
 }

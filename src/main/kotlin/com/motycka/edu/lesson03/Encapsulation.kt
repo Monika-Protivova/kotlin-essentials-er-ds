@@ -2,6 +2,25 @@ package com.motycka.edu.lesson03
 
 import java.time.LocalDate
 
+<<<<<<< HEAD
+class Assignment(val dueDate: LocalDate, val assignee: String){
+
+    private var finalGrade: Int? = null
+
+    fun setFinalGrade(grade: Int){
+        require(grade in 0..100) {
+            "Final grade must be between 0 and 100"
+        }
+        finalGrade = grade
+    }
+
+    fun getFinalGrade(): Int? = finalGrade
+
+}
+
+
+=======
+>>>>>>> 49f228850e191f7fda9ad040e26fb9deeff8b9cb
 /*
   TODO implement the Assignment class.
 
@@ -22,8 +41,16 @@ import java.time.LocalDate
  Uncomment the main function to try the solution.
  */
 
+<<<<<<< HEAD
+fun main() {
+    val assignment = Assignment(LocalDate.now(), "John Doe")
+    assignment.setFinalGrade(90)
+    println(assignment.getFinalGrade())
+}
+=======
 //fun main() {
 //    val assignment = Assignment(LocalDate.now(), "John Doe")
 //    assignment.setFinalGrade(90)
 //    println(assignment.getFinalGrade())
 //}
+>>>>>>> 49f228850e191f7fda9ad040e26fb9deeff8b9cb

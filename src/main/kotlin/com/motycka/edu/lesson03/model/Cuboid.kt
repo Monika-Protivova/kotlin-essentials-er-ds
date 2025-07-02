@@ -5,3 +5,21 @@ package com.motycka.edu.lesson03.model
     - It should have a constructor that takes three parameters for width, height, and depth.
     - It should override all methods from Shape3D interface.
  */
+<<<<<<< HEAD
+
+//class Cuboid (val width: Double, val height: Double, val depth: Double): Shape3D {
+class Cuboid (private val width: Double, private val height: Double, private val depth: Double): Shape3D {
+
+    override fun volume(): Double {
+        return width * height * depth
+    }
+
+    override fun surfaceArea(): Double {
+       return 2 * (width * height +
+                width * depth +
+                height * depth)
+    }
+
+}
+=======
+>>>>>>> 49f228850e191f7fda9ad040e26fb9deeff8b9cb
